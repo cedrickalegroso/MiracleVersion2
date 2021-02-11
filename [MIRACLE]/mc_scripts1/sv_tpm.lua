@@ -1,0 +1,1 @@
+local a=nil;TriggerEvent('esx:getShRETROaredObjRETROect',function(b)a=b end)TriggerEvent('es:addGroupCommand','tpm','admin',function(c,d,e)TriggerClientEvent('esx:tpm',c)end,function(c,d,e)TriggerClientEvent('chat:addMessage',c,{args={'^1SYSTEM','Insufficient Permissions.'}})end,{help='tp to waypoint'})
